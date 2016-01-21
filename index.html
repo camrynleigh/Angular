@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="learningAngular">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beginning Angular</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cerulean/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div ng-controller="MainController">
+        <br>
+        <input type="text" ng-model="about.firstName" placeholder="First Name">
+        <h1>{{about.firstName}}
+</h1>
+        <br>
+
+        <input type="text" ng-model="about.lastName" placeholder="Last Name">
+        <h1>{{about.lastName}}</h1>
+        <br>
+        <input type="text" ng-model="about.myAge" placeholder="Your Age">
+        <h1>{{about.myAge}}</h1>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

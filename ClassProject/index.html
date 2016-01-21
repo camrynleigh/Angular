@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MySum">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Class Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" </head>
+
+    <body ng-controller="SumController">
+
+        <div>
+            <label>First Number</label>
+            <input type="text" ng-model="firstNumber">
+            <label>Second Number</label>
+            <input type="text" ng-model="secondNumber">
+            <button ng-click="sumNumbers()">Sum</button>
+            <p>{{sum}}</p>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+
+</html>
